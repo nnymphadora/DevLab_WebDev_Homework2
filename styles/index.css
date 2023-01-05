@@ -7,6 +7,28 @@
   padding: 0;
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Lato", sans-serif;
+  color: #5a5454;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #3d37f1;
+}
+
 /* Setting the background color for the "header" part */
 .header {
   background-color: #f8f8f8;
@@ -53,32 +75,36 @@
 .cover {
   display: flex;
   margin: auto;
+  padding: 5em 10em;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5em;
 }
 
-h1,
-h2 {
-  font-family: "Lato", sans-serif;
-}
-
-h1 {
-  font-size: 40px;
-  font-weight: bold;
-}
-
-h2 {
-  font-size: 25px;
-}
-
-.cover-product {
+.cover-visual {
   position: relative;
 }
-
-.cover-product-background {
-  max-height: 70%;
-  z-index: 1;
+.cover-background {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  max-height: 25em;
+}
+.cover-photo {
   position: absolute;
+  bottom: 0;
+  left: 30px;
+  max-height: 20em;
 }
 
-.cover-product-background {
-  z-index: 0;
+.cover-text {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.cover p {
+  font-size: 1.5rem;
 }
