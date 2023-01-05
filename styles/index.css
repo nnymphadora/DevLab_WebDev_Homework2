@@ -1,0 +1,84 @@
+/* General styles */
+* {
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting the background color for the "header" part */
+.header {
+  background-color: #f8f8f8;
+}
+
+/* The following styles reffer to the navigation menu */
+
+.navigation {
+  max-width: 70%;
+  margin: auto;
+  display: flex;
+  padding: 2em;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.user-menu button {
+  font-weight: bold;
+}
+
+.nav-bar ul,
+.user-menu ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2em;
+  align-items: center;
+}
+
+.navigation a {
+  text-decoration: none;
+  text-decoration: none;
+  color: #4b647e;
+}
+
+#cart-icon {
+  height: 2em;
+  position: relative;
+}
+
+/* The following styles reffer to the cover product and info menu */
+
+.cover {
+  display: flex;
+  margin: auto;
+}
+
+h1,
+h2 {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.cover-product {
+  position: relative;
+}
+
+.cover-product-background {
+  max-height: 70%;
+  z-index: 1;
+  position: absolute;
+}
+
+.cover-product-background {
+  z-index: 0;
+}
