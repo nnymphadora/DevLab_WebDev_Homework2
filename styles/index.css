@@ -77,3 +77,112 @@
 .cover p {
   font-size: 1.5rem;
 }
+/* The following styles reffer to the Services section */
+
+.services {
+  display: flex;
+  flex-direction: column;
+  background-color: #fbfcfd;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  margin: auto;
+  font-size: 0.8rem;
+}
+
+.description {
+  text-align: center;
+  margin: 2em;
+  max-width: 50%;
+}
+
+.description h3,
+.description h2,
+.description p {
+  margin: 0.7em;
+}
+
+.services-cards {
+  gap: 1.5em;
+  display: grid;
+  max-width: 70%;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 3fr 3fr;
+  margin: 3em 0;
+  padding: 5em auto;
+}
+
+.service-icon {
+  max-width: 30%;
+  max-height: 25%;
+  margin: 3em;
+}
+
+.hover-icon {
+  display: none;
+}
+
+.services-card {
+  background-color: white;
+  box-shadow: 1px 1px 20px rgb(204, 202, 202);
+  padding: 2.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.services-card h2 {
+  font-size: 17px;
+}
+
+.services-card button {
+  margin: 1em;
+}
+
+.services-card:hover,
+.services-card:hover h2 {
+  color: white;
+}
+
+.services-card:hover .service-icon {
+  display: none;
+}
+
+.services-card:hover .hover-icon {
+  display: block;
+}
+
+/* The following styles reffer to the Product Prommotion section */
+
+.middle {
+  max-width: 70%;
+  padding: 3rem 0;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.product-background {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  max-height: 35em;
+}
+.product-photo {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  max-height: 25em;
+}
+
+hr {
+  width: 4rem;
+  height: 0.3rem;
+}
+.under-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
