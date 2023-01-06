@@ -30,6 +30,16 @@ h3 {
   color: #3d37f1;
 }
 
+a {
+  text-decoration: none;
+}
+
+.nav-bar {
+  display: flex;
+  list-style-type: none;
+  gap: 2em;
+}
+
 /* Buttons */
 .oval-button {
   border-radius: 55px;
@@ -49,6 +59,14 @@ h3 {
   font-weight: bold;
   background-color: white;
   border: 1px solid #ece3e3;
+}
+
+.white-hover:hover {
+  color: #f8f8f8;
+}
+
+.purple-hover:hover {
+  color: #3d37f1;
 }
 
 /* Animations */
@@ -108,4 +126,20 @@ h3 {
 
 .fill-background:hover {
   background-image: linear-gradient(to left, #a5a2f6, #3d37f1);
+}
+
+/* Reusable cards styles */
+
+.card {
+  background-color: white;
+  box-shadow: 1px 1px 20px rgb(204, 202, 202);
+  font-size: 0.8rem;
+}
+
+.card h2 {
+  font-size: 17px;
+}
+
+.card button {
+  margin: 1em;
 }
