@@ -179,6 +179,7 @@
 hr {
   width: 4rem;
   height: 0.3rem;
+  background-color: #8d9296;
 }
 .under-text {
   display: flex;
