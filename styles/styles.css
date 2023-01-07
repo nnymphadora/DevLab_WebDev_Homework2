@@ -40,6 +40,17 @@ a {
   gap: 2em;
 }
 
+.vertical-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 3rem 0;
+}
+
+.horizontal-nav {
+  align-items: center;
+}
+
 /* Buttons */
 .oval-button {
   border-radius: 55px;

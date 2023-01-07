@@ -22,10 +22,6 @@
   font-weight: bold;
 }
 
-.horizontal-nav {
-  align-items: center;
-}
-
 .header a {
   color: #4b647e;
 }
@@ -250,13 +246,6 @@ The following styles reffer to the 'Experience' section. */
   display: grid;
   grid-template-rows: 1fr 1fr;
   gap: 1.5rem;
-}
-
-.vertical-nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin: 3rem 0;
 }
 
 .product-card {
