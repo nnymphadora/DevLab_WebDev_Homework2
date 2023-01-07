@@ -1,11 +1,11 @@
-/* Setting the background color for the "home" section */
+/* Setting the background color for the "Home" section */
 .home {
   background-color: #f8f8f8;
 }
 
-/* The following styles reffer to the haeder */
-logo {
-  height: 25px;
+/* The following styles reffer to the 'Header' - nav bar part */
+.logo {
+  max-height: 25px;
 }
 .header {
   max-width: 70%;
@@ -34,7 +34,7 @@ logo {
   height: 2em;
 }
 
-/* The following styles reffer to the cover product and info menu */
+/* The following styles reffer to the 'Header' section - product promotion part. */
 
 .cover {
   display: flex;
@@ -72,7 +72,7 @@ logo {
 .cover p {
   font-size: 1.5rem;
 }
-/* The following styles reffer to the Services section */
+/* The following styles reffer to the 'Services' section */
 
 .services {
   display: flex;
@@ -142,7 +142,7 @@ logo {
   display: block;
 }
 
-/* The following styles reffer to the Product Prommotion section */
+/* The following styles reffer to the 'Product Promotion' section */
 
 .middle {
   max-width: 70%;
@@ -176,7 +176,7 @@ hr {
   gap: 1.5rem;
 }
 /* 
-The following styles reffer to the Experience section. */
+The following styles reffer to the 'Experience' section. */
 
 .experience {
   display: flex;
@@ -220,7 +220,7 @@ The following styles reffer to the Experience section. */
   text-align: justify;
 }
 
-/* The following styles reffer to the Top Picks section */
+/* The following styles reffer to the 'Top Picks' section */
 
 .top-picks-container {
   display: grid;
@@ -277,7 +277,7 @@ The following styles reffer to the Experience section. */
   font-size: 1.3rem;
 }
 
-/* The following styles reffer to the Brands section. */
+/* The following styles reffer to the 'Brands' section. */
 .brands {
   display: flex;
   justify-content: center;
@@ -365,7 +365,7 @@ The following styles reffer to the Experience section. */
   gap: 2rem;
 }
 
-/* The following styles reffer to the Reviews section. */
+/* The following styles reffer to the 'Reviews' section. */
 
 .reviews {
   background-color: #f8f8f8;
@@ -386,7 +386,7 @@ The following styles reffer to the Experience section. */
   margin: 3rem;
 }
 
-/* Ideally, the cards would interact with the icons in such a way with icons that when one hovers on an icon, the according review card appears, but seems a little stupid to do with CSS. */
+/* Ideally, the cards would interact with the icons in such a way that when one hovers on an icon, the according review card appears, but I was not able to succed this with only css and html a this time.*/
 
 .customer-review-card {
   display: flex;
