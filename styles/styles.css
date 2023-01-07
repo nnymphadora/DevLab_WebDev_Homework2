@@ -131,6 +131,28 @@ a {
   }
 }
 
+.grow-shrink {
+  animation-name: grow-shrink;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes grow-shrink {
+  0% {
+    transform: scale(1);
+    rotate: 0deg;
+  }
+  50% {
+    transform: scale(1.2);
+    rotate: 11deg;
+  }
+  100% {
+    transform: scale(1);
+    rotate: 0deg;
+  }
+}
+
 .fill-background {
   transition: background 2s;
 }
