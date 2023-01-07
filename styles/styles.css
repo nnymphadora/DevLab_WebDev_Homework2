@@ -128,11 +128,17 @@ a {
   background-image: linear-gradient(to left, #a5a2f6, #3d37f1);
 }
 
+.highlight {
+  opacity: 0.6;
+}
+.highlight:hover {
+  opacity: 1;
+}
 /* Reusable cards styles */
 
 .card {
   background-color: white;
-  box-shadow: 1px 1px 20px rgb(204, 202, 202);
+  box-shadow: 1px 1px 40px rgb(204, 202, 202);
   font-size: 0.8rem;
 }
 

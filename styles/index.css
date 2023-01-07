@@ -4,7 +4,9 @@
 }
 
 /* The following styles reffer to the haeder */
-
+logo {
+  height: 25px;
+}
 .header {
   max-width: 70%;
   margin: auto;
@@ -30,7 +32,6 @@
 
 #cart-icon {
   height: 2em;
-  position: relative;
 }
 
 /* The following styles reffer to the cover product and info menu */
@@ -274,4 +275,205 @@ The following styles reffer to the Experience section. */
 .top-picks p,
 .top-picks a {
   font-size: 1.3rem;
+}
+
+/* The following styles reffer to the Brands section. */
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 70%;
+  margin: auto;
+  gap: 2rem;
+}
+/* The following styles reffer to the 'Blog' section. */
+
+.blog {
+  width: 100%;
+  background-color: #fbfcfd;
+  flex-wrap: wrap;
+}
+.blog-container {
+  display: flex;
+  justify-content: center;
+  max-width: 70%;
+  align-content: center;
+  margin: auto;
+  padding: 4rem 0;
+  gap: 2rem;
+}
+
+.blog-col-1 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.blog-col-2 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  overflow: hidden;
+  gap: 1.5rem;
+}
+
+.blog-col-3 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  overflow: hidden;
+  align-self: center;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.blog-pic {
+  width: fit-content;
+}
+
+.blog-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  margin: 0 1rem;
+  overflow: hidden;
+  border-bottom: 1px solid rgb(214, 213, 213);
+}
+
+.blog-author-data,
+.blog-date-data {
+  display: flex;
+}
+
+.blog-card h2,
+.blog-short {
+  padding: 1rem;
+}
+
+.blog-icon {
+  margin-right: 0.3rem;
+}
+
+.highligted-blog {
+  display: flex;
+  gap: 2rem;
+}
+
+/* The following styles reffer to the Reviews section. */
+
+.reviews {
+  background-color: #f8f8f8;
+  padding-bottom: 5rem;
+}
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 70%;
+  margin: auto;
+}
+
+.customer-reviews-icons {
+  display: flex;
+  gap: 2rem;
+  margin: 3rem;
+}
+
+/* Ideally, the cards would interact with the icons in such a way with icons that when one hovers on an icon, the according review card appears, but seems a little stupid to do with CSS. */
+
+.customer-review-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 90%;
+  padding: 2rem;
+  margin: 1rem auto;
+}
+
+.one-star,
+.two-star,
+.three-star,
+.five-star {
+  display: none;
+}
+
+/* The following styles reffer to the 'Footer' section. */
+
+.footer-info {
+  max-width: 80%;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 2fr;
+  margin: 7rem auto;
+  gap: 4rem;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4,
+.footer-col-5 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 2em;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social {
+  height: 20px;
+  opacity: 0.7;
+}
+
+.social:hover {
+  opacity: 1;
+}
+
+.contact {
+  display: flex;
+}
+
+#email-form {
+  position: relative;
+  margin: 2rem;
+}
+
+#email-submit {
+  background-image: url(../assets/submit-icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 3rem;
+  width: 3rem;
+  border-style: none;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#email-input {
+  margin: 0;
+  border-style: none;
+  height: 3rem;
+  width: 20rem;
+  text-indent: 2rem;
+  padding-right: 3.5rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
