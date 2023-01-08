@@ -6,6 +6,7 @@
 /* The following styles reffer to the 'Header' - nav bar part */
 .logo {
   max-height: 25px;
+  max-width: fit-content;
 }
 .header {
   max-width: 70%;
@@ -401,10 +402,15 @@ The following styles reffer to the 'Experience' section. */
   max-width: 80%;
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr 1fr 2fr;
-  margin: 7rem auto;
+  margin: 7rem auto 3rem auto;
   gap: 4rem;
 }
-
+.footer-signature {
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 1rem auto;
+}
 .footer-col-1,
 .footer-col-2,
 .footer-col-3,
@@ -413,14 +419,16 @@ The following styles reffer to the 'Experience' section. */
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  gap: 2em;
+  gap: 1.5rem;
+  justify-content: flex-start;
 }
 
 .socials {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 0.5rem;
+  margin: 3rem 0;
 }
 
 .social {
@@ -434,6 +442,12 @@ The following styles reffer to the 'Experience' section. */
 
 .contact {
   display: flex;
+  gap: 0.2rem;
+}
+
+.contact-icon {
+  max-width: fit-content;
+  max-height: 15px;
 }
 
 #email-form {
@@ -465,4 +479,15 @@ The following styles reffer to the 'Experience' section. */
   position: absolute;
   bottom: 0;
   right: 0;
+  box-shadow: 1px 1px 20px rgb(204, 202, 202);
+}
+
+.footer a {
+  color: #4b647e;
+}
+
+.footer p,
+.footer a {
+  font-weight: bold;
+  line-height: 2rem;
 }
