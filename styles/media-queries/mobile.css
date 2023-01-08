@@ -1,0 +1,220 @@
+@media screen and (max-width: 757px) {
+  .body {
+    width: 100%;
+  }
+
+  /*Header  */
+  .home {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .header {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .user-menu a,
+  .user-menu button {
+    display: none;
+  }
+
+  #cart-icon {
+    position: absolute;
+    display: inline-block;
+    top: 2rem;
+    height: 20px;
+    right: 2rem;
+  }
+
+  .logo {
+    width: 70%;
+  }
+
+  #burger-button {
+    display: inline-block;
+    height: 20px;
+    position: absolute;
+    left: 2rem;
+  }
+
+  .cover {
+    padding: 2rem;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .top {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  /* The Services */
+  .service {
+    max-width: 100%;
+    padding: 3rem;
+    overflow: hidden;
+  }
+
+  .description {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .services-card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+
+  .services-card {
+    max-width: 95%;
+  }
+
+  /* The Product Promotion */
+  .middle {
+    flex-direction: column;
+  }
+
+  /* The Experience */
+  .experience {
+    padding: 2rem;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .experience-cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 95%;
+  }
+  .experience-icon {
+    max-width: 60%;
+  }
+
+  /* Top picks */
+  .top-picks {
+    max-width: 100%;
+    padding: 2rem;
+  }
+
+  .top-picks-container {
+    margin: auto;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /* Blog */
+  .blog {
+    padding: 3rem;
+    max-width: 100%;
+  }
+  .blog-container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-col-1,
+  .blog-col-2,
+  .blog-col-3 {
+    width: 95%;
+  }
+
+  /* Brands */
+
+  .brands {
+    width: 95%;
+    flex-direction: row;
+  }
+
+  .brands img {
+    height: 9rem;
+    width: fit-content;
+  }
+  /* 
+  Footer  */
+  .footer-signature {
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .footer-info {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-col-4,
+  .footer-col-3 {
+    display: none;
+  }
+
+  #email-input {
+    position: relative;
+  }
+
+  /* About */
+
+  .about-container {
+    width: 100%;
+    padding: 3rem;
+  }
+
+  .about-section {
+    max-width: 100%;
+    padding: 1rem 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap: 2rem;
+    margin: 0 auto 5rem auto;
+  }
+  .about-text,
+  .about-visual,
+  .story > .about-visual {
+    max-width: 95%;
+  }
+
+  .typewriter {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+  .mission {
+    flex-direction: column-reverse;
+  }
+  #mission-photo {
+    left: -10rem;
+  }
+
+  #mission-dots {
+    left: -30rem;
+    top: -30rem;
+  }
+
+  #mission-blob {
+    top: 0;
+  }
+
+  .about-join {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .join-us {
+    margin: 2rem auto;
+  }
+
+  .join-us > form {
+    margin: 2rem auto 0 auto;
+  }
+
+  .join-us input[type="submit"] {
+    margin: 3rem auto 0 auto;
+  }
+}

@@ -14,19 +14,30 @@
     />
 
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/media-queries/mobile.css" />
+    <link rel="stylesheet" href="styles/media-queries/tablet.css" />
   </head>
   <body>
     <div class="home" id="home">
       <div class="header">
-        <img class="logo" src="assets/logo.png" alt="Company logo." />
         <div>
-          <ul class="nav-bar horizontal-nav">
+          <img
+            id="burger-button"
+            src="assets/burger-button.png"
+            alt="Burger menu button."
+          />
+          <img class="logo" src="assets/logo.png" alt="Company logo." />
+        </div>
+        <div>
+          <ul class="main-nav nav-bar horizontal-nav">
             <li><a class="underline" href="#home">Home</a></li>
             <li><a class="underline" href="#services">Services</a></li>
             <li><a class="underline" href="#product-promotion">products</a></li>
-            <li><a class="underline" href="#">Review</a></li>
-            <li><a class="underline" href="#">Experience</a></li>
-            <li><a class="underline" href="#">Support</a></li>
+            <li><a class="underline" href="#reviews">Reviews</a></li>
+            <li>
+              <a class="underline" href="./html/gallery.html">Gallery</a>
+            </li>
+            <li><a class="underline" href="./html/about-us.html">About</a></li>
           </ul>
         </div>
         <div>
@@ -360,8 +371,7 @@
               Read More
             </button>
           </div>
-        </div>
-        <div class="top-picks-col-3">
+
           <div class="card product-card float" id="product-3">
             <img
               class="top-picks-icon"
@@ -516,7 +526,7 @@
         </div>
       </div>
     </div>
-    <div class="reviews">
+    <div class="reviews" id="reviews">
       <div class="reviews-container">
         <div class="description">
           <h2><span class="purple-span">Our</span> customers reviews</h2>

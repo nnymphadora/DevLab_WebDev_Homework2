@@ -1,0 +1,137 @@
+body {
+  background-color: #f8f8f8;
+}
+
+/* The following styles reffer to the .story section  */
+.about-section {
+  display: flex;
+  max-width: 80%;
+  gap: 7rem;
+  margin: 5rem auto;
+}
+.mobile-only {
+  display: none;
+}
+
+.about-section h1 {
+  padding: 0 3rem;
+}
+.about-section p {
+  line-height: 1.5rem;
+  text-align: justify;
+  font-size: 1.3rem;
+  margin: 2rem 0;
+}
+
+.about-text {
+  max-width: 45%;
+}
+
+.story > .about-visual {
+  max-width: 55%;
+}
+
+.about-section video {
+  max-width: 100%;
+}
+
+/* The following styles reffer to the .mission section */
+
+.mission > .about-visual {
+  width: 60%;
+  position: relative;
+}
+
+.mission {
+  justify-content: center;
+  align-items: center;
+}
+
+#mission-blob {
+  position: absolute;
+  top: 10rem;
+  left: 0;
+  opacity: 0.7;
+  z-index: 0;
+}
+
+#mission-photo {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  left: 0;
+}
+
+#mission-dots {
+  position: relative;
+  left: -8rem;
+  top: -20rem;
+  z-index: 3;
+  opacity: 0.5;
+}
+
+/* The following styles reffer to the .join-us section */
+
+.about-join {
+  width: 100%;
+  background-color: #fbfcfd;
+}
+
+.join-us {
+  max-width: 80%;
+  margin: auto;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.join-us p {
+  max-width: 65%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.join-us form {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 3rem auto;
+}
+
+.join-us input[type="text"] {
+  display: block;
+  width: 100%;
+  height: 2rem;
+  line-height: 1.5rem;
+  margin: 0.3rem 0;
+  background-color: white;
+  border: 1px solid white;
+  color: #3d37f1;
+  box-shadow: 1px 1px 20px rgb(204, 202, 202);
+}
+
+.join-us input[type="submit"] {
+  width: 60%;
+  margin: auto;
+  border-style: none;
+  background-color: #3d37f1;
+  height: 2.7rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 1px 1px 20px rgb(204, 202, 202);
+}
+
+.join-us label {
+  font-weight: 600;
+  color: #3d37f1;
+}
+
+.join-us input[type="file"] {
+  display: block;
+  margin: 0.3rem 0;
+}
