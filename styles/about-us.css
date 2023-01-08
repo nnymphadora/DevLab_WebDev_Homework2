@@ -13,8 +13,14 @@ body {
   display: none;
 }
 
-.about-section h1 {
+.about-container h1 {
+  letter-spacing: 0.07em;
   padding: 0 3rem;
+  font-size: 30px;
+}
+
+.about-container h2 {
+  letter-spacing: 0.07em;
 }
 .about-section p {
   line-height: 1.5rem;

@@ -318,9 +318,15 @@ The following styles reffer to the 'Experience' section. */
   margin-right: 0.3rem;
 }
 
-.highligted-blog {
+.highlighted-blog {
   display: flex;
+  flex-direction: column;
   gap: 2rem;
+}
+
+.highlighted-blog button {
+  width: 60%;
+  margin: auto;
 }
 
 /* The following styles reffer to the 'Reviews' section. */
