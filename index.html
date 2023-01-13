@@ -20,24 +20,27 @@
   <body>
     <div class="home" id="home">
       <div class="header">
-        <div>
+        <img class="logo" src="assets/logo.png" alt="Company logo." />
+        <a
+          href="javascript:void(0);"
+          class="burger-button"
+          onclick="showHoverMenu()"
+        >
           <img
             id="burger-button"
             src="assets/burger-button.png"
             alt="Burger menu button."
           />
+        </a>
+        <div id="hover-menu" class="hover-menu">
+          <a class="underline" href="#home">Home</a>
+          <a class="underline" href="#services">Services</a>
+          <a class="underline" href="#product-promotion">Products</a>
+          <a class="underline" href="#reviews">Reviews</a>
 
-          <img class="logo" src="assets/logo.png" alt="Company logo." />
-          <div class="hover-menu">
-            <a class="underline" href="#home">Home</a>
-            <a class="underline" href="#services">Services</a>
-            <a class="underline" href="#product-promotion">Products</a>
-            <a class="underline" href="#reviews">Reviews</a>
+          <a class="underline" href="#">Gallery</a>
 
-            <a class="underline" href="#">Gallery</a>
-
-            <a class="underline" href="./html/about-us.html">About</a>
-          </div>
+          <a class="underline" href="./html/about-us.html">About</a>
         </div>
         <div>
           <ul class="main-nav nav-bar horizontal-nav">
@@ -704,5 +707,6 @@
         <p>Designed with love by <a href="#" target="_blank">UIExpert</a></p>
       </div>
     </div>
+    <script src="scripts/script.js"></script>
   </body>
 </html>

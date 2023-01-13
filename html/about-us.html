@@ -18,13 +18,19 @@
   </head>
   <body>
     <div class="header">
-      <img
-        id="burger-button"
-        src="../assets/burger-button.png"
-        alt="Burger menu button."
-      />
+      <a
+        href="javascript:void(0);"
+        class="burger-button"
+        onclick="showHoverMenu()"
+      >
+        <img
+          id="burger-button"
+          src="../assets/burger-button.png"
+          alt="Burger menu button."
+        />
+      </a>
       <img class="logo" src="../assets/logo.png" alt="Company logo." />
-      <div class="hover-menu">
+      <div id="hover-menu" class="hover-menu">
         <a class="underline" href="#home">Home</a>
         <a class="underline" href="#services">Services</a>
         <a class="underline" href="#product-promotion">Products</a>
@@ -248,5 +254,6 @@
         <p>Designed with love by <a href="#" target="_blank">UIExpert</a></p>
       </div>
     </div>
+    <script src="../scripts/script.js"></script>
   </body>
 </html>
