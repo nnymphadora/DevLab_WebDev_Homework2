@@ -1,4 +1,4 @@
-@media screen and (max-width: 757px) {
+@media screen and (max-width: 411px) {
   .body {
     width: 100%;
   }
@@ -131,8 +131,7 @@
   }
 
   .brands img {
-    height: 9rem;
-    width: fit-content;
+    max-width: 25%;
   }
   /* 
   Footer  */
@@ -147,12 +146,14 @@
   .footer-info {
     grid-template-columns: 1fr;
   }
-
+  .footer-col-5,
   .footer-col-4,
-  .footer-col-3 {
-    display: none;
+  .footer-col-3,
+  .footer-col-2,
+  .footer-col-1 {
+    align-items: center;
+    text-align: center;
   }
-
   #email-input {
     position: relative;
   }

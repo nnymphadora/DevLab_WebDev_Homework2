@@ -1,0 +1,78 @@
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+  .body {
+    width: 100%;
+  }
+  /*Header  */
+  .home {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .logo {
+    width: 50%;
+    margin-right: auto;
+    margin-left: 1rem;
+  }
+
+  #burger-button {
+    display: inline-block;
+    height: 20px;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 3rem;
+    left: 10rem;
+  }
+
+  .cover {
+    padding: 2rem;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  /* The Services */
+  .services-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 95%;
+  }
+
+  .services-card {
+    max-width: 95%;
+    flex-wrap: wrap;
+  }
+
+  .blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 95;
+  }
+
+  .blog-col-1 {
+    width: 70%;
+  }
+  .blog-col-2,
+  .blog-col-3 {
+    width: 45%;
+  }
+
+  .footer-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  /* About */
+  .typewriter {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+}

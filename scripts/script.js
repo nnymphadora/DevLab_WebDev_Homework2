@@ -1,5 +1,5 @@
-function showHoverMenu() {
-  var x = document.getElementById("hover-menu");
+function showDropdownMenu() {
+  var x = document.getElementById("dropdown-menu");
   if (x.style.display === "flex") {
     x.style.display = "none";
     console.log(1);

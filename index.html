@@ -14,17 +14,17 @@
     />
 
     <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="stylesheet" href="styles/media-queries/mobile.css" />
+    <link rel="stylesheet" href="styles/media-queries/mobile-small.css" />
+    <link rel="stylesheet" href="styles/media-queries/mobile-medium.css" />
     <link rel="stylesheet" href="styles/media-queries/tablet.css" />
   </head>
   <body>
     <div class="home" id="home">
       <div class="header">
-        <img class="logo" src="assets/logo.png" alt="Company logo." />
         <a
           href="javascript:void(0);"
           class="burger-button"
-          onclick="showHoverMenu()"
+          onclick="showDropdownMenu()"
         >
           <img
             id="burger-button"
@@ -32,7 +32,9 @@
             alt="Burger menu button."
           />
         </a>
-        <div id="hover-menu" class="hover-menu">
+        <img class="logo" src="assets/logo.png" alt="Company logo." />
+
+        <div id="dropdown-menu" class="dropdown-menu">
           <a class="underline" href="#home">Home</a>
           <a class="underline" href="#services">Services</a>
           <a class="underline" href="#product-promotion">Products</a>

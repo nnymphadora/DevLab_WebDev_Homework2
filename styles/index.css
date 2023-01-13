@@ -245,6 +245,10 @@ The following styles reffer to the 'Experience' section. */
   margin: auto;
   gap: 2rem;
 }
+
+.brands img {
+  max-width: 15%;
+}
 /* The following styles reffer to the 'Blog' section. */
 
 .blog {
@@ -288,6 +292,7 @@ The following styles reffer to the 'Experience' section. */
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  max-width: 350px;
 }
 
 .blog-pic {

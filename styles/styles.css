@@ -146,6 +146,7 @@ a {
   flex-wrap: nowrap;
   gap: 1.5rem;
   justify-content: flex-start;
+  overflow: hidden;
 }
 
 .socials {
@@ -357,6 +358,18 @@ a {
   }
 }
 
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+  80% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
 /* Reusable cards styles */
 
 .card {
@@ -375,21 +388,21 @@ a {
 
 /* Nav bar for mobile */
 
-.hover-menu {
+.dropdown-menu {
   display: none;
   flex-direction: column;
   background-color: #f8f8f8;
   width: 97vw;
   text-align: left;
-  margin: 2rem 2rem 0 2rem;
+  margin: 2rem 2rem 0 10rem;
+  animation: growDown 300ms ease-in-out forwards;
+  transform-origin: top;
+  z-index: 3;
 }
 
-.hover-menu a {
+.dropdown-menu a {
   color: #2822d4;
   font-size: 1.5rem;
   padding: 0.4rem;
-}
-
-.hover-menu a {
-  border-bottom: 1px solid rgb(194, 190, 190);
+  width: fit-content;
 }
