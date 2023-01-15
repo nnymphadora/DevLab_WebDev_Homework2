@@ -296,6 +296,7 @@ The following styles reffer to the 'Experience' section. */
 }
 
 .blog-pic {
+  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -355,6 +356,11 @@ The following styles reffer to the 'Experience' section. */
   margin: 3rem;
 }
 
+#customer-1-text,
+#customer-2-text,
+#customer-3-text {
+  display: none;
+}
 /* Ideally, the cards would interact with the icons in such a way that when one hovers on an icon, the according review card appears, but I was not able to succed this with only css and html a this time.*/
 
 .customer-review-card {

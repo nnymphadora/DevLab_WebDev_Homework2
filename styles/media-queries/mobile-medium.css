@@ -123,6 +123,7 @@
   .blog-col-1,
   .blog-col-2,
   .blog-col-3 {
+    width: -moz-fit-content;
     width: fit-content;
   }
 
