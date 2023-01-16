@@ -361,7 +361,6 @@ The following styles reffer to the 'Experience' section. */
 #customer-3-text {
   display: none;
 }
-/* Ideally, the cards would interact with the icons in such a way that when one hovers on an icon, the according review card appears, but I was not able to succed this with only css and html a this time.*/
 
 .customer-review-card {
   display: flex;
@@ -374,10 +373,24 @@ The following styles reffer to the 'Experience' section. */
   margin: 1rem auto;
 }
 
-.one-star,
-.two-star,
-.three-star,
-.five-star {
+#customer-1-text .one-star,
+#customer-1-text .two-star,
+#customer-1-text .three-star,
+#customer-1-text .five-star {
+  display: none;
+}
+
+#customer-2-text .one-star,
+#customer-2-text .two-star,
+#customer-2-text .three-star,
+#customer-2-text .four-star {
+  display: none;
+}
+
+#customer-3-text .one-star,
+#customer-3-text .two-star,
+#customer-3-text .three-star,
+#customer-3-text .four-star {
   display: none;
 }
 
