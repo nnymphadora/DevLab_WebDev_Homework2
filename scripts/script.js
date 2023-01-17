@@ -1,4 +1,6 @@
-// This function toggles the dropdown menu on click in mobile and tablet. The element contains the inline "onclick" property which triggers the function
+// This function toggles the dropdown menu on click in mobile and tablet.
+const burgerButton = document.querySelector("#burger-button");
+burgerButton.addEventListener("click", showDropdownMenu);
 
 function showDropdownMenu() {
   var x = document.getElementById("dropdown-menu");
@@ -16,9 +18,6 @@ const customers = document.querySelectorAll(".customer-icon");
 
 customers.forEach((customer) => {
   customer.addEventListener("mouseover", showReview);
-});
-
-customers.forEach((customer) => {
   customer.addEventListener("mouseout", hideReview);
 });
 
