@@ -1,4 +1,4 @@
-// This function toggles the dropdown menu on click in mobile and tablet.
+// Adding an event listener to the menu button seen in mobile and tablet, and creating an event handler function which toggles the menu by changing its display property.
 const burgerButton = document.querySelector("#burger-button");
 burgerButton.addEventListener("click", showDropdownMenu);
 
