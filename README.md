@@ -1,10 +1,6 @@
 # DevLab_WebDev_Homework2
 
-This project is my attempt at completing Developers Lab, WebDev 2022/23 course Homework 2. The project consists of HTML and CSS, and a little bit of JS and aims at showcasing mostyly my CSS skills so far. The project consists of 2 pages, all created on set guidelines and requirements.
-
-The index.html and index.css files contain most of the HTML and CSS for the homepage. In addition to this, for quicker access styless.css contains the fonts, colors and layout (margin and padding) styles, as well as button designs and animations. Aside from this, the project uses fonts found on Google Fonts. Media queries can be found in styles/media-queries. Currently, there are media queries for mobile small mobile medium and tablet.
-
-The project currently consists of two pages, home and about us. I plan to add one more.
+This project is my attempt at completing Developers Lab, WebDev 2022/23 course Homework 2. The project is mostly HTML and CSS, with a dash JS. It aims to showcase  my CSS skills, so far. I created 3 media quries(mobile small, mobile medium and tablet), to make the design responsive. 
 
 The project is a recreation of the "Tech Product Home Page" design created by Ehsanul. You can find the design and more info on the author in the "design" folder. The .xd file can be opened through https://figpea.com/.
 
